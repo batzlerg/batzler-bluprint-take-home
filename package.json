@@ -1,0 +1,27 @@
+{
+  "name": "batzler-bluprint-take-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./build && tsc",
+    "start": "nodemon build/index.js",
+    "install:dev": "npm install && cd frontend && npm install",
+    "start:frontend": "cd ./frontend && npm run start",
+    "start:backend": "npm run build && node build/index.js"
+  },
+  "author": "Graham Batzler",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.0",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.8.21",
+    "express": "^4.17.1"
+  }
+}

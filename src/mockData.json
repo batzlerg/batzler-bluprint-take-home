@@ -1,0 +1,40 @@
+[{
+    "id": 52,
+    "first_name": "Rebecca",
+    "last_name": "Phynes",
+    "address": "123 Alchemic Blvd. Denver, CO, 80302",
+    "created_date": "2018-03-11 18:12:02",
+    "deleted_date": null
+},
+{
+    "id": 107,
+    "first_name": "Marshall",
+    "last_name": "Defoy",
+    "address": "456 Boxing Ave. Denver, CO, 80005",
+    "created_date": "2018-06-23 09:29:54",
+    "deleted_date": null
+},
+{
+    "id": 44,
+    "first_name": "Kelly",
+    "last_name": "Voigt",
+    "address": "789 Canary Ln. Denver, CO, 80212",
+    "created_date": "2019-09-03 13:40:31",
+    "deleted_date": null
+},
+{
+    "id": 16,
+    "first_name": "Connor",
+    "last_name": "Yang",
+    "address": "102 Delfinium Ct. Denver, CO, 80301",
+    "created_date": "2019-01-30 16:07:12",
+    "deleted_date": "2019-10-11 01:32:44"
+},
+{
+    "id": 20,
+    "first_name": "Foo",
+    "last_name": "Bar",
+    "address": "123 Sesame St. Imagination, AL, 11237",
+    "created_date": "2018-12-30 00:00:00",
+    "deleted_date": null
+}]

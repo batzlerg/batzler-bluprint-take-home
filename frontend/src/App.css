@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 1rem;
+  background-color: whitesmoke;
+  padding: 2rem 1rem;
+}
+
+.controls input, .controls select, .controls button {
+  font-size: 1rem;
+}
+
+.error {
+  height: 1rem;
+  margin-top: 1rem;
+  margin-bottom: -2rem;
+  color: red;
+}
+
+.userTable {
+  margin-top: 4rem;
+}
