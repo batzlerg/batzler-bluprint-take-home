@@ -4,9 +4,6 @@ Hello Bluprint team!
 
 My name is Graham Batzler and this is my submission for the Bluprint Sr. Dev take home challenge. Both the frontend and backend for the project are contained within this repo.
 
-Backend: Node.js + Typescript
-Frontend: React
-
 ## Getting Started
 
 The `start:dev` script handles the TS compilation and running both local servers.
@@ -15,9 +12,14 @@ The backend can be queried directly at `localhost:1337`.
 
 ```
 cd batzler-bluprint-take-home
-npm install:dev // installs frontend and backend deps
-npm start // compiles TS, generates static front end build, starts Node server
-// navigate to localhost:3000
+
+// installs frontend and backend deps
+npm install:dev
+
+// compiles TS, generates static front end build, starts Node server
+npm start
+
+// navigate to localhost:1337
 ```
 
 ## Assignment Parameters
