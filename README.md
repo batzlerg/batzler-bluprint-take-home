@@ -6,25 +6,19 @@ My name is Graham Batzler and this is my submission for the Bluprint Sr. Dev tak
 
 ## Getting Started
 
-The `start:dev` script handles the TS compilation and running both local servers.
-
-The backend can be queried directly at `localhost:1337`.
-
 ```
 cd batzler-bluprint-take-home
 
 // installs frontend and backend deps
 npm install:both
 
-// compiles TS, generates static front end build, starts Node server
+// generates static front end build, compiles TS, starts Node server
 npm start
 
 // navigate to localhost:1337
 ```
 
 ## Assignment Parameters
-
-Build a basic User Management Application
 
 For the purpose of this exercise we will look for a certain set of APIs that will need to be built and consumed by the front-end application. Anything that is not specifically outlined will be free to interpretation of the implementer.
 
