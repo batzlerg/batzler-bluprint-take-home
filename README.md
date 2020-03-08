@@ -6,6 +6,8 @@ My name is Graham Batzler and this is my submission for the Bluprint Sr. Dev tak
 
 ## Getting Started
 
+Clone this repo and navigate to your new local project directory.
+
 ```
 cd batzler-bluprint-take-home
 
