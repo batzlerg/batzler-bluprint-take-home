@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf ./build && tsc",
-    "install:dev": "npm install && cd frontend && npm install",
+    "install:both": "npm install && cd frontend && npm install",
     "start": "cd ./frontend && npm run build && cd .. && npm run build && node build/index.js"
   },
   "author": "Graham Batzler",
