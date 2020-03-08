@@ -1,11 +1,14 @@
 "use strict";
 
 import express from 'express';
+import path from 'path';
 import dateUtils from 'dayjs';
 import { getUserAddressFields, sortAlphabetical } from './utils';
 import data from './mockData.json'; // todo: implement db instead of JSON file
 
-const PORT = 1337; // todo: keep this in .env
+// todo: keep these consts in .env
+const PORT = 1337;
+const FRONTEND_PATH = '../frontend/build';
 
 const VALID_SORT_PARAMS = [
   'created_date',
@@ -26,6 +29,12 @@ const SORT_COMPARATORS = { // optional sort parameters
 };
 
 const app = express();
+
+app.use(express.static(path.join(__dirname, FRONTEND_PATH)));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, FRONTEND_PATH, 'index.html'))
+});
 
 app.get('/users', (req, res) => {
   let sortBy: sortParam = req.query.sortBy;

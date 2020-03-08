@@ -16,8 +16,7 @@ The backend can be queried directly at `localhost:1337`.
 ```
 cd batzler-bluprint-take-home
 npm install:dev // installs frontend and backend deps
-npm start:backend
-npm start:frontend
+npm start // compiles TS, generates static front end build, starts Node server
 // navigate to localhost:3000
 ```
 
